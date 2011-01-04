@@ -11,7 +11,7 @@
 <div id="wrapper">
 
 	<header>
-		<a href="http://colorpul.com" id="logo">Colorpul</a>
+		<a href="" id="logo">Colorpul</a>
 		<p id="description">A simple color palette generating script.</p>
 		<br class="clear" />
 	</header>
