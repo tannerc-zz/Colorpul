@@ -1,0 +1,156 @@
+html {
+	font: 13px normal Helvetica, Arial, sans-serif;
+	margin-top: 2%;
+}
+
+#wrapper {
+	width: 800px;
+	height: auto;
+	margin: 30px auto;
+}
+
+header {
+	display: block;
+	width: 600px;
+	margin: 10px auto;
+}
+
+#logo {
+	display: block;
+	float: left;
+	width: 179px;
+	height: 55px;
+	text-decoration: none;
+	font-size: 1px;
+	text-indent: -9999px;
+	background: url('../images/colorpul.png') center no-repeat;
+}
+
+#description {
+	display: inline;
+	float: right;
+	font-size: 12px;
+	color: #adadad;
+	font-style: italic;
+	margin-top: 15px;
+}
+
+.clear {
+	clear: both;
+}
+
+#content-wrap {
+	width: 572px;
+	display: block;
+	padding: 6px;
+	margin: 10px auto;
+	background-color: #f1f1f1;
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+}
+
+#main-content {
+	width: 550px;
+	padding: 20px 10px;
+	margin: 0 auto;
+	background: #FFF url('../images/background.jpg') bottom left repeat-x;
+	border: 1px solid #b9b9b9;
+	border-radius: 6px;
+	-moz-border-radius: 6px;
+}
+
+#colorpul label {
+	display: block;
+	font-weight: bold;
+}
+
+.input-wrap {
+	float: left;
+	display: block;
+	width: 424px;
+	height: auto;
+	padding: 2px 4px;
+	margin: 10px 0;
+	background-color: #f6e5e1;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+}
+
+.input-wrap:hover {
+	background-color: #ff581e;
+}
+
+#colorpul input[type=text] {
+	float: left;
+	width: 410px;
+	height: auto;
+	font-size: 16px;
+	padding: 6px;
+	border: 1px solid #b68d88;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	background: #FFF url('../images/input-shadow.jpg') top left repeat-x;
+}
+
+#colorpul input:focus {
+	border: 1px solid #7c2417;
+	outline: none;
+}
+
+#submit {
+	display: block;
+	float: right;
+	width: 110px;
+	height: 40px;
+	background: #d84f27 url('../images/button-background.jpg') top left repeat-x;
+	border: 1px solid #933a21;
+	margin: 0 auto;
+	margin-top: 10px;
+	color: #FFF;
+	cursor: pointer;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	font-weight: bold;
+	font-size: 16px;
+	text-shadow: #933a21 1px 1px 1px;
+}
+
+#submit:hover {
+	border: 1px solid #ff581e;
+	text-decoration: underline;
+}
+
+.preview {
+	display: block;
+	width: 530px !important;
+	border: 2px solid #f1f1f1;
+	margin: 0 auto;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+}
+
+#palette {
+	width: 530px;
+	height: auto;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+.column {
+	display: block;
+	width: 20%;
+	float: left;
+}
+
+.color {
+	display: block; 
+	width: 100%;
+	height: 75px;
+}
+
+.colorlabel {
+	display: block;
+	margin: 6px auto;
+	width: 100%;
+	text-align: center;
+}
